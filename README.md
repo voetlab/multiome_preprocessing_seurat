@@ -1,6 +1,6 @@
-# multiome_preprocessing_seurat
+# Multiome_preprocessing_seurat
 
-Workflow to preprocess single nucleus multiome data (gene expression + ATAC) produced with cellranger ARC in Seurat. Using a sequential set of scripts, go from a folder with cellranger arc outputs to a Seurat object with dimensionality reduction and clustering for gene expression data.
+Workflow to preprocess single nucleus multiome data (gene expression + ATAC) produced with 10X Genomics Cellranger ARC in Seurat. Using a sequential set of scripts, go from a folder with cellranger-arc outputs to a Seurat object with dimensionality reduction and clustering for gene expression data.
 
 
 # Getting started
@@ -30,7 +30,7 @@ The output is a ready-to-annotate seurat object.
 * out-folder: where should outputs be saved/collected from?
 * matrix/raw_matrices: the folder with the collected filtered/raw h5 files.
 * QC: a comma separated vector of quality control metrices in the following order
-    * min number of feautures
+    * min number of features
     * max number of features feature
     * min number of read, max number of reads
     * max mitochondrial percentage
@@ -39,4 +39,4 @@ The output is a ready-to-annotate seurat object.
 
 # Contact
 
-Made by [Markus Boesch](markus.boesch@kuleuven.be), [Christos Vlachos], [Emiel Geeraerts](emiel.geeraerts@kuleuven.be)
+Made by [Markus Boesch](markus.boesch@kuleuven.be), [Christos Vlachos](christos.vlachos.2@gmail.com), [Emiel Geeraerts](emiel.geeraerts@kuleuven.be)
