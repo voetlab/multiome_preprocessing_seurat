@@ -40,3 +40,6 @@ The output is a ready-to-annotate seurat object.
 # Contact
 
 Made by [Markus Boesch](markus.boesch@kuleuven.be), [Christos Vlachos](christos.vlachos.2@gmail.com), [Emiel Geeraerts](emiel.geeraerts@kuleuven.be)
+
+# Citation
+10.5281/zenodo.13620951
